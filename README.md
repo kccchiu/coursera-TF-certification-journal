@@ -10,3 +10,15 @@ The code contains in this repo is largly the same as the notebooks within the co
 - Course 2 - Convolutional Neural Networks in TensorFlow
 - Course 3 - Natural Language Processing in TensorFlow
 - Course 4 - Sequences, Time Series and Prediction
+
+### To train model with gpu locally run this to limit gpu vram usage
+```
+#Limit GPU vram usage to 5gb
+gpus = tf.config.experimental.list_physical_devices('GPU')
+if gpus:
+    try:
+        tf.config.experimental.set_virtual_device_configuration(
+            gpus[0],[tf.config.experimental.VirtualDeviceConfiguration(memory_limit=5120)])
+    except RuntimeError as e:
+        print(e)
+```
