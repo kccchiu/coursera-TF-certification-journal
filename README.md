@@ -13,6 +13,11 @@ The code contains in this repo is largly the same as the notebooks within the co
 
 ### To train model with gpu locally run this to limit gpu vram usage
 ```
+#GPU memory allocation
+cuda does not release the gpu memory when a model is finished training within an ipynb notebook.
+Please set a limit for gpu memory allocation so you can train model simultaneously with a python script.
+
+
 #Limit GPU vram usage to 5gb
 gpus = tf.config.experimental.list_physical_devices('GPU')
 if gpus:
