@@ -1,2 +1,4 @@
 *.ipynb_checkpoints
 __pycache__/
+course1/horse-or-human.zip
+course1/horse-or-human/
