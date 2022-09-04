@@ -17,4 +17,8 @@ course2/horse-or-human/
 course2/validation-horse-or-human.zip
 course2/validation-horse-or-human/
 course2/inception_v3_weights_tf_dim_ordering_tf_kernels_notop.h5
+course2/rps-test/
+course2/rps-train/
+course2/sign_mnist_test.csv
+course2/sign_mnist_train.csv
 
