@@ -22,3 +22,5 @@ course2/rps-train/
 course2/sign_mnist_test.csv
 course2/sign_mnist_train.csv
 course3/~/
+course3/meta.tsv
+course3/vecs.tsv
