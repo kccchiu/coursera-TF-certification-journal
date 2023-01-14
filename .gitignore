@@ -24,3 +24,11 @@ course2/sign_mnist_train.csv
 course3/~/
 course3/meta.tsv
 course3/vecs.tsv
+course3/training_cleaned.csv
+course1/data/
+course3/bbc-text-minimal.csv
+course3/glove.6B.100d.txt
+course3/history.pkl
+course3/irish-lyrics-eof.txt
+course3/sonnets.txt
+course1/dogs-vs-cats.zip
